@@ -1,0 +1,54 @@
+.howitworks-container {
+  padding: 3rem 1.5rem;
+  /* background-color: #f9f9f9; */
+  text-align: center;
+}
+
+.howitworks-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  color: #222;
+}
+
+.howitworks-steps {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.howitworks-card {
+  background-color: #ffffff;
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  height: 300px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.howitworks-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.howitworks-number {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #4f46e5; /* Indigo */
+  margin-bottom: 1rem;
+}
+
+.howitworks-card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.howitworks-description {
+  font-size: 1.25rem;
+  color: #555;
+  line-height: 1.5;
+}
