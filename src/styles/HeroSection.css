@@ -1,0 +1,68 @@
+.hero-container { 
+  display: flex; /* Ensure flexbox is enabled */
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+  width: 100%;
+  height: 200px; /* Set a height to see the vertical centering, adjust as needed */
+  background-color: transparent; /* 'none' is invalid, use 'transparent' instead */
+  margin-top: 50px;
+}
+
+.hero-text {
+  margin:0px;
+  text-align: center;/* Ensure text is centered within the div */
+  font-size: 60px; /* Increased from 20px, adjust as needed */
+  font-weight: 1000;
+  line-height: 1.3;
+  color: #333;
+}
+
+.hero-subtext {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.3;
+  font-size: 22px;
+}
+
+.hero-button-container{
+  display: flex;
+  justify-content: center; /* Center the button container */
+  margin-top: 28px; /* Add some space above the button */
+  height: 40px;
+  gap:30px;
+}
+
+.find-your-mentor-button{
+  display:flex;
+  align-items: center; /* Center the button vertically */
+  background: #1276ae;
+  color:white;
+  border: none;
+  border-radius: 5px; /* Add some border radius for a rounded look */
+
+}
+
+.become-a-mentor-button{
+  display:flex;
+  align-items: center; /* Center the button vertically */
+  background: transparent; /* Use 'transparent' instead of 'none' */
+  border: 1px solid #1276ae; /* Change border color to white */
+  color: #1276ae;
+  border-radius: 5px; /* Add some border radius for a rounded look */
+
+}
+
+.find-your-mentor-text{
+  padding: 10px; /* Add some padding for better spacing */
+  font-weight: 400; /* Make the text bold */
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+.become-a-mentor-text{
+  padding: 10px; /* Add some padding for better spacing */
+  font-weight: 400; /* Make the text bold */
+  font-size: 16px; /* Adjust font size as needed */
+}
+
