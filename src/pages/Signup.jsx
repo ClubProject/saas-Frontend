@@ -44,7 +44,7 @@ function Signup() {
         <div className="signup-submit-container">
           <button className="signup-submit-btn">Sign Up</button>
           <p>Already have an account?</p>
-          <Link to="/">Login</Link>
+          <Link to="/login">Login</Link>
         </div>
       </div>
     </>
