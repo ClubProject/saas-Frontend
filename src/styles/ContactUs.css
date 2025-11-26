@@ -1,0 +1,153 @@
+.form-item{
+    margin-bottom: 20px;
+    font-size: 19.2px;
+}
+
+.label-name{
+    margin-bottom:10px;
+}
+
+.contact-us-text{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: 750;
+    font-size: 32px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 80%;
+  padding: 12px 14px;
+  border: 1px solid #ddd;         /* light border */
+  border-radius: 8px;             /* rounded corners */
+  font-size: 16px;
+  outline: none;                  /* remove default blue outline */
+  transition: all 0.2s ease;      /* smooth hover/focus effect */
+  background-color: #f9f9f9;      /* subtle background */
+}
+
+.contact-us-grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    gap: 35px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.submit-button {
+  background-color: white;      /* primary blue color */
+  color: #007BFF;
+  border: solid;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  justify-content: center;
+  margin-left:80px;
+}
+
+.left-card{
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+    max-width: 100%;
+}
+
+.left-card button {
+  margin-top: 10px;
+  align-self: center;
+}
+
+.send{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.right-card{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-title{
+    text-align: center;
+    font-size: 30px;
+    /* margin-bottom: 20px; */
+}
+
+.address-card{
+    background: #fff;
+    border-radius: 10px;
+    /* padding: 20px; */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+    width: 100%;
+    /* margin-bottom: 30px; */
+    padding-bottom: 20px;
+}
+
+.address-item{
+    padding: 5px 20px 0px 20px;
+    display: flex;
+    align-items: center;}
+
+.address-text{
+    margin-top: 15px;;
+}
+
+.address-icon{
+    width:fit-content;
+    height: fit-content;
+    margin-right: 10px;
+}
+
+.media-link-card {
+
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+
+    /* Make all icons sit side by side */
+    /* display: flex; */
+    justify-content: center; /* centers the row */
+    gap: 15px; /* spacing between icons */
+    padding: 15px 0px 20px 0px;
+}
+.media-link-title {
+    text-align: center;     /* center the text */
+    font-size: 30px;
+}
+
+.nig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.media-link-item {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.media-link-icon {
+    width: 32px;   /* adjust size */
+    height: 32px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.media-link-icon:hover {
+    transform: scale(1.1); /* small hover effect */
+}

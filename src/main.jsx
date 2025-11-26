@@ -2,8 +2,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from "react-router"
 import App from './App.jsx'
-import './styles/Login.css'
-import './styles/Signup.css'
+const styles = import.meta.glob('./styles/*.{css,scss}');
+for (const path in styles) {
+  styles[path]();
+}
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
