@@ -1,4 +1,5 @@
 import '../styles/Navbar.css';
+import {Link} from 'react-router'
 
 function Navbar(){
   return (
@@ -13,8 +14,8 @@ function Navbar(){
         <li><a href="#contact"><p className='contact'>Contact</p></a></li>
       </ul>
       <div className="auth-buttons">
-        <button className="login-button">Login</button>
-        <button className="signup-button">Sign Up</button>
+        <Link to={'/login'}><button className="login-button">Login</button></Link>
+        <Link to={'/signup'}><button className="signup-button">Sign Up</button></Link>
       </div>
     </nav>
   );
