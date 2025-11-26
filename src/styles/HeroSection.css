@@ -9,21 +9,19 @@
 }
 
 .hero-text {
-  margin:0px;
-  text-align: center;/* Ensure text is centered within the div */
-  font-size: 60px; /* Increased from 20px, adjust as needed */
+  margin: 0;
+  text-align: center;
+  font-size: clamp(2rem, 6vw, 3.5rem); /* responsive scaling */
   font-weight: 1000;
   line-height: 1.3;
   color: #333;
 }
 
 .hero-subtext {
-  margin-top: 0px;
-  display: flex;
-  justify-content: center;
+  margin-top: 0;
+  font-size: clamp(1rem, 3vw, 1.25rem);
+  padding: 0 1rem; /* keep text inside screen edges */
   text-align: center;
-  line-height: 1.3;
-  font-size: 22px;
 }
 
 .hero-button-container{
